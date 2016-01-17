@@ -23,7 +23,7 @@ jQuery(function(){
             });
             
             jQuery('.green').hoverZoom({
-                overlayColor: '#1abc9c',
+                overlayColor: '#66ccff',
                 zoom: 0
             });
             

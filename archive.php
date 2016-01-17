@@ -54,7 +54,7 @@ Template Name: Blog
 							</section> <!-- end of .post-meta -->
 
 							<header>
-								<h4 class="post-title"><?php the_title(); ?></h4>
+								<h2 class="post-title"><a href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>"><?php the_title(); ?></a></h2>
 							</header>
 							<section class="post-entry">
 								<?php if (has_post_thumbnail()) : ?>

@@ -40,7 +40,7 @@
 									</p>
 								</section><!-- end of .post-meta -->
 
-								<h4><?php the_title(); ?></h4>
+								<h2><?php the_title(); ?></h2>
 
 								<?php if (has_post_thumbnail()) : ?>
 									<p><?php the_post_thumbnail(); ?></p>
