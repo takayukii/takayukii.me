@@ -18,7 +18,10 @@ See: http://codex.wordpress.org/Child_Themes
 CSS Rules: Sorted alphabetically for better organization.
 */
 
-
+.navbar-brand b {
+	font-size: 50px;
+	font-family: 'Shadows Into Light', cursive;
+}
 
 body {
 	-webkit-overflow-scrolling: touch;
