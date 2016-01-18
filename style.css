@@ -52,7 +52,7 @@ a {
 	-o-transition: color 0.1s ease-in, background 0.1s ease-in;
 	-ms-transition: color 0.1s ease-in, background 0.1s ease-in;
 	-moz-transition: color 0.1s ease-in, background 0.1s ease-in;
-	color: #66ccff;/*#1abc9c;*/
+	color: #66ccff;
 	transition: color 0.1s ease-in, background 0.1s ease-in;
 	word-wrap: break-word;
 }
@@ -83,7 +83,7 @@ hr {
 
 .navbar-inverse { padding-bottom: 70px; padding-top: 70px; }
 
-.navbar-inverse { background-color: #66ccff; border-color: #16a085; }
+.navbar-inverse { background-color: #66ccff; border-color: #66adff; }
 
 .navbar-inverse .navbar-nav > li > a { color: white; }
 
