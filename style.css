@@ -23,6 +23,22 @@ CSS Rules: Sorted alphabetically for better organization.
 	font-family: 'Shadows Into Light', cursive;
 }
 
+section.post-entry > ul {
+	list-style-type: disc;
+	margin: 20px;
+}
+section.post-entry > ol {
+	list-style-type: decimal;
+	margin: 20px;
+}
+
+.subtitle {
+	margin: 0px;
+	padding: 0px;
+	font-size: 12px;
+	color: white;
+}
+
 body {
 	-webkit-overflow-scrolling: touch;
 	-webkit-font-smoothing: antialiased;

@@ -89,6 +89,7 @@
 							</a>
 						<?php }
 					} ?>
+					<p class="subtitle hidden-xs"><?php bloginfo( 'description' ); ?></p>
 				</div>
 				<div class="navbar-collapse collapse navbar-responsive-collapse">
 					<?php
