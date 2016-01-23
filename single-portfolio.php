@@ -33,6 +33,11 @@
 									<?php echo rwmb_meta('wtf_portfolio_top_title'); ?>
 									<hr>
 								<?php } ?>
+								<?php
+								$images = rwmb_meta('thickbox', 'type=image');
+								foreach ($images as $image) {
+									echo "<p><img class='img-responsive' src='{$image['full_url']}' alt='{$image['alt']}' /></p>";
+								} ?>
 
 								<?php the_content(); ?>
 
@@ -41,11 +46,6 @@
 
 						<div class="row mt centered">
 							<div class="col-lg-8 col-lg-offset-2">
-								<?php
-								$images = rwmb_meta('thickbox', 'type=image');
-								foreach ($images as $image) {
-									echo "<p><img class='img-responsive' src='{$image['full_url']}' alt='{$image['alt']}' /></p>";
-								} ?>
 								<?php if (rwmb_meta('wtf_port_cats') == 'value1') { ?>
 									<p>
 										<bt><?php _e('Type', 'gents'); ?>
