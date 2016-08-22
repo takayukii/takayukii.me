@@ -13,6 +13,7 @@
  * @since          available since Release 1.0
  */
 ?>
+<?php return; ?>
 <?php if ( post_password_required() )
     return; ?>
 
